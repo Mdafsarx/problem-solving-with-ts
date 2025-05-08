@@ -24,7 +24,7 @@ class Vehicle {
     this._year = year;
   }
   getInfo() {
-    return `Make: ${this._make}, Year: ${this._year}`;
+    console.log(`Make: ${this._make}, Year: ${this._year}`);
   }
 }
 class Car extends Vehicle {
@@ -34,7 +34,7 @@ class Car extends Vehicle {
     this._model = model;
   }
   getModel() {
-    return `Model: ${this._model}`;
+    console.log(`Model: ${this._model}`);
   }
 }
 
